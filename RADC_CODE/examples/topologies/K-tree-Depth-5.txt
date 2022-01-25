@@ -1,0 +1,50 @@
+router
+
+# node   comment  yPos    xPos
+Src1     NA        1        3
+Src2     NA        3        3
+Src3     NA        5        3
+Src4     NA        7        3
+Src5     NA        9        3
+Src6     NA        11       3
+Src7     NA        13       3
+Src8     NA        15       3
+Src9     NA        17       3
+Src10    NA        19       3
+Src11    NA        21       3
+Rtr9     NA        13       9
+Rtr8     NA        15       9
+Rtr7     NA        3        9
+Rtr6     NA        6        9
+Rtr5     NA        9        9
+Rtr4     NA        12       14
+Rtr3     NA        15       14
+Rtr2     NA        18       16
+Rtr1     NA        11       21
+Dst1     NA        11       23
+Dst2     NA        6        23
+
+
+link
+# srcNode   dstNode     bandwidth   metric    delay   queue
+Src1        Rtr3        1000Mbps      1        10ms     10
+Src2        Rtr3        1000Mbps      1        10ms     10
+Src3        Rtr4        1000Mbps      1        10ms     10
+Src4        Rtr5        1000Mbps      1        10ms     10
+Src5        Rtr5        1000Mbps      1        10ms     10
+Src6        Rtr5        1000Mbps      1        10ms     10
+Src7        Rtr6        1000Mbps      1        10ms     10
+Src8        Rtr7        1000Mbps      1        10ms     10
+Src9        Rtr8        1000Mbps      1        10ms     10
+Src10       Rtr9        1000Mbps      1        10ms     10
+Src11       Rtr9        1000Mbps      1        10ms     10
+Rtr1        Dst1        1000Mbps      1        10ms     10
+Rtr1        Dst2        1000Mbps      1        10ms     10
+Rtr2        Rtr1        1000Mbps      1        10ms     10
+Rtr3        Rtr2        1000Mbps      1        10ms     10
+Rtr4        Rtr2        1000Mbps      1        10ms     10
+Rtr5        Rtr3        1000Mbps      1        10ms     10
+Rtr6        Rtr3        1000Mbps      1        10ms     10
+Rtr7        Rtr4        1000Mbps      1        10ms     10
+Rtr8        Rtr4        1000Mbps      1        10ms     10
+Rtr9        Rtr4        1000Mbps      1        10ms     10
